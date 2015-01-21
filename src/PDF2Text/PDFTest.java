@@ -10,8 +10,8 @@ public class PDFTest {
  PDDocument pd;
  BufferedWriter wr;
  try {
-         File input = new File("file/test2.pdf");  // The PDF file from where you would like to extract
-         File output = new File("file/test2.txt"); // The text file where you are going to store the extracted data
+         File input = new File("file/test.pdf");  // The PDF file from where you would like to extract
+         File output = new File("file/test.txt"); // The text file where you are going to store the extracted data
          pd = PDDocument.load(input);
          System.out.println(pd.getNumberOfPages());
          System.out.println(pd.isEncrypted());
